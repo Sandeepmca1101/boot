@@ -1,0 +1,13 @@
+package com.example.boot.SpringBoot.Repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.boot.SpringBoot.model.User;
+
+public interface UserRepo extends JpaRepository<User, Integer>{
+
+	void save(List<? extends User> users);
+
+}

@@ -1,0 +1,11 @@
+package com.example.boot.SpringBoot.Repo;
+
+import java.util.List;
+
+import com.example.boot.SpringBoot.model.User;
+
+public interface UserRepo {
+
+	void save(List<? extends User> users);
+
+}

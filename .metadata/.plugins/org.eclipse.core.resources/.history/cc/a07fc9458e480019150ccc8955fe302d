@@ -1,0 +1,6 @@
+spring.batch.job.enabled=false
+
+
+spring.batch.job.enabled=false
+
+input=file:/Users/apple/Downloads/spring-batch-example-1/src/main/resources/users.csv
